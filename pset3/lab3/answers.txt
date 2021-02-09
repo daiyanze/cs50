@@ -1,0 +1,43 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+sort1 ranked 3rd with reversed data.
+sort1 ranked 3rd with random data.
+sort1 tied for 1st with sorted data.
+
+For bubble sort,
+the Big-O notation is `n^2` and
+the Big-Omega notation is `n`.
+In another word, bubble sort performance varies in different scenarios.
+
+Since there's one test faster than sort3 and 2 tests slower than sort2 and sort3,
+We could conclude that sort1 is using bubble sort.
+
+
+sort2 uses: Merge sort
+
+How do you know?:
+sort2 ranked 1st with any data.
+
+For merge sort,
+the Big-theta notation is `n * log(n)`.
+In short, merge sort behaves the same in all scenarios.
+
+Since all 3 tests consumes same amount of time and are faster than the other 2 process,
+we could conclude that sort2 is using merge sort.
+
+
+sort3 uses: Selection sort
+
+How do you know?:
+sort3 ranked 2nd with reversed data.
+sort3 ranked 2nd with random data.
+sort3 ranked 2nd with random data.
+Tests under these 3 types of data consumes same amount of time for sort3.
+
+For selection sort,
+the Big-theta notation is `n ^ 2`.
+In short, merge sort behaves the same in all scenarios. But its performance should be slower than merge sort.
+
+Since all 3 tests consumes same amount of time and are slower than sort2,
+we could conclude that sort3 is using selection sort.
